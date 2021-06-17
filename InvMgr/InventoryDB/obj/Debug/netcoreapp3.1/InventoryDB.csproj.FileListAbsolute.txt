@@ -1,0 +1,12 @@
+C:\Users\G\src\csharp\InvMgr\InventoryDB\bin\Debug\netcoreapp3.1\InventoryDB.deps.json
+C:\Users\G\src\csharp\InvMgr\InventoryDB\bin\Debug\netcoreapp3.1\InventoryDB.dll
+C:\Users\G\src\csharp\InvMgr\InventoryDB\bin\Debug\netcoreapp3.1\InventoryDB.pdb
+C:\Users\G\src\csharp\InvMgr\InventoryDB\obj\Debug\netcoreapp3.1\InventoryDB.csprojAssemblyReference.cache
+C:\Users\G\src\csharp\InvMgr\InventoryDB\obj\Debug\netcoreapp3.1\InventoryDB.AssemblyInfoInputs.cache
+C:\Users\G\src\csharp\InvMgr\InventoryDB\obj\Debug\netcoreapp3.1\InventoryDB.AssemblyInfo.cs
+C:\Users\G\src\csharp\InvMgr\InventoryDB\obj\Debug\netcoreapp3.1\InventoryDB.csproj.CoreCompileInputs.cache
+C:\Users\G\src\csharp\InvMgr\InventoryDB\obj\Debug\netcoreapp3.1\InventoryDB.dll
+C:\Users\G\src\csharp\InvMgr\InventoryDB\obj\Debug\netcoreapp3.1\InventoryDB.pdb
+C:\Users\G\src\csharp\InvMgr\InventoryDB\bin\Debug\netcoreapp3.1\InventoryDB.runtimeconfig.json
+C:\Users\G\src\csharp\InvMgr\InventoryDB\bin\Debug\netcoreapp3.1\InventoryDB.runtimeconfig.dev.json
+C:\Users\G\src\csharp\InvMgr\InventoryDB\obj\Debug\netcoreapp3.1\InventoryDB.genruntimeconfig.cache

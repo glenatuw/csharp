@@ -1,0 +1,43 @@
+﻿@model BDayCard.Models.Card
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <title>Birthday Card Sent</title>
+</head>
+<body>
+
+    <div class="container">
+        <h4 class="bg-dark text-secondary">Birthday Card Generator</h4>
+        <h1 class="font-weight-bold">Birthday Card Sent</h1>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.From)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.From)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.To)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.To)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Message)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Message)
+            </dd>
+        </dl>
+    </div>
+
+</body>
+</html>
