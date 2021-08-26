@@ -1,0 +1,32 @@
+﻿@model mini_cstructor.WebSite.Models.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="jumbotron">
+    <h1>The Learning Center</h1>
+    <p class="lead">The place for technology classes.</p>
+</div>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2><a asp-area="" asp-controller="Home" asp-action="ClassList">Class List</a></h2>
+        <br/>
+        <p>See all our class offerings</p>
+    </div>
+    <div class="col-md-4">
+        <h2><a asp-area="" asp-controller="Home" asp-action="StudentClasses">Your enrolled classes</a></h2>
+        <br/>
+        <p>See the classes you are enrolled in</p>
+</div>
+    <div class="col-md-4">
+        <h2><a asp-area="" asp-controller="Home" asp-action="AddClass">Enroll in a class</a></h2>
+        <br/>
+        <p>Take a new class</p>
+</div>
+</div>
+
+
+
+

@@ -1,0 +1,12 @@
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\bin\Debug\netcoreapp2.1\mini-cstructor.Repository.deps.json
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\bin\Debug\netcoreapp2.1\mini-cstructor.Repository.dll
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\bin\Debug\netcoreapp2.1\mini-cstructor.Repository.pdb
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\bin\Debug\netcoreapp2.1\mini-cstructor.ProductDatabase.dll
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\bin\Debug\netcoreapp2.1\mini-cstructor.ProductDatabase.pdb
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\obj\Debug\netcoreapp2.1\mini-cstructor.Repository.csproj.AssemblyReference.cache
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\obj\Debug\netcoreapp2.1\mini-cstructor.Repository.AssemblyInfoInputs.cache
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\obj\Debug\netcoreapp2.1\mini-cstructor.Repository.AssemblyInfo.cs
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\obj\Debug\netcoreapp2.1\mini-cstructor.Repository.csproj.CoreCompileInputs.cache
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\obj\Debug\netcoreapp2.1\mini-cstructor.Repository.csproj.CopyComplete
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\obj\Debug\netcoreapp2.1\mini-cstructor.Repository.dll
+C:\Users\G\src\csharp\mini-cstructor\mini-cstructor.Repository\obj\Debug\netcoreapp2.1\mini-cstructor.Repository.pdb

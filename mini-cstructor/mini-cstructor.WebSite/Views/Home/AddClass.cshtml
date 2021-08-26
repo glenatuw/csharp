@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Newtonsoft.Json;
+
+@model mini_cstructor.WebSite.Models.ClassesModel
+@{
+    ViewData["Title"] = "Enroll In Class";
+}
+
+<h2>Enroll In Class</h2>
+<hr />
+
+@if (Context.Session.GetString("User") != null)
+{
+
+    <form asp-controller="Home" asp-action="AddClass" method="post">
+
+        <select name="ClassId" id="ClassId">
+            @foreach (var classModel in Model.Classes)
+            {
+                <option value="@classModel.ClassId">
+                    @classModel.ClassName
+                </option>
+            }
+        </select>
+        <button type="submit">Add Class</button>
+    </form>
+
+}
+else
+{
+    <p>Please 
+    and login to add a class</p>
+    <a asp-action="register">Register</a>
+    <br/>
+    <a asp-action="login">Login</a>
+}

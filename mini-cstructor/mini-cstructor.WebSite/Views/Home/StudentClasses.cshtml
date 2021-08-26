@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Newtonsoft.Json;
+
+@model mini_cstructor.WebSite.Models.ClassesModel
+@{
+    ViewData["Title"] = "Student Classes";
+    var returnUrl = @Context.Request.Query["returnurl"];
+}
+
+<h2>Student Classes</h2>
+<hr />
+
+
+@if (Context.Session.GetString("User") != null)
+{
+    <div class="row">
+        <div class="text-weight-bold col-md-4">Name</div>
+        <div class="text-weight-bold col-md-4">Description</div>
+        <div class="text-weight-bold col-md-4">Paid</div>
+    </div>
+    <hr />
+
+    @foreach (var classModel in Model.Classes)
+    {
+        <div class="row">
+            <div class="col-md-4">
+                @classModel.ClassName
+            </div>
+            <div class="col-md-4">
+                @classModel.ClassDescription
+            </div>
+            <div class="col-md-4">
+                @classModel.ClassPrice.ToString("#.##")
+            </div>
+        </div>
+        <hr/>
+    }
+}
+else
+{
+    <p>Please register and login to see your enrolled class</p>
+    <a asp-action="register">Register</a>
+    <br/>
+    <a asp-action="login">Login</a>
+}
+
+
+
