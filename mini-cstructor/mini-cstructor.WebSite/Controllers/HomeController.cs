@@ -168,11 +168,6 @@ namespace mini_cstructor.WebSite.Controllers
                 {
                     var user = JsonConvert.DeserializeObject<WebSite.Models.UserModel>(sessionUser);
                     Business.UserClassModel newUserClass = userManager.AddClass(user.Id, classModel.ClassId);
-
-                    if (newUserClass == null)
-                    {
-                        RedirectToAction("AddClass");
-                    }
                 }
             }
 
