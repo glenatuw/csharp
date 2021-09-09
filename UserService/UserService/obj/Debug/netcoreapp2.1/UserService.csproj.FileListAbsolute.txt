@@ -1,0 +1,17 @@
+C:\Users\G\src\csharp\UserService\UserService\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\G\src\csharp\UserService\UserService\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\G\src\csharp\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.deps.json
+C:\Users\G\src\csharp\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.runtimeconfig.json
+C:\Users\G\src\csharp\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.runtimeconfig.dev.json
+C:\Users\G\src\csharp\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.dll
+C:\Users\G\src\csharp\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.pdb
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.csproj.AssemblyReference.cache
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.AssemblyInfoInputs.cache
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.AssemblyInfo.cs
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.csproj.CoreCompileInputs.cache
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.RazorAssemblyInfo.cache
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.RazorAssemblyInfo.cs
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.RazorTargetAssemblyInfo.cache
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.dll
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.pdb
+C:\Users\G\src\csharp\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.genruntimeconfig.cache

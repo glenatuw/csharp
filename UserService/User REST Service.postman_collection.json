@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "fdc94f5c-a6d4-4f2a-a8b6-061c1bc20fc1",
+		"name": "User REST Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{SERVERNAME}}/api/Users",
+					"protocol": "http",
+					"host": [
+						"{{SERVERNAME}}"
+					],
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get A User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{SERVERNAME}}/api/Users/{{USERID}}",
+					"protocol": "http",
+					"host": [
+						"{{SERVERNAME}}"
+					],
+					"path": [
+						"api",
+						"Users",
+						"{{USERID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserEmail\": \"mike\",\r\n    \"UserPassword\": \"password\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{SERVERNAME}}/api/Users",
+					"protocol": "http",
+					"host": [
+						"{{SERVERNAME}}"
+					],
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserEmail\": \"newemail\",\r\n    \"UserPassword\": \"newpassword\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{SERVERNAME}}/api/Users/{{USERID}}",
+					"protocol": "http",
+					"host": [
+						"{{SERVERNAME}}"
+					],
+					"path": [
+						"api",
+						"Users",
+						"{{USERID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://{{SERVERNAME}}/api/Users/{{USERID}}",
+					"protocol": "http",
+					"host": [
+						"{{SERVERNAME}}"
+					],
+					"path": [
+						"api",
+						"Users",
+						"{{USERID}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "SERVERNAME",
+			"value": "localhost:35465"
+		},
+		{
+			"key": "USERID",
+			"value": "1631840e-5aed-4e85-b772-62ee09ca17ae"
+		}
+	]
+}
